@@ -40,7 +40,7 @@ build/Release
 
 # Dependency directories
 node-backend/node_modules/
-react-fronted/node_modules/
+react-fronted/node_modules
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -122,35 +122,5 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-# yarn v2
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.yarn/install-state.gz
-.pnp.*
-.DS_STORE
-node_modules
-scripts/flow/*/.flowconfig
-.flowconfig
-*~
-*.pyc
-.grunt
-_SpecRunner.html
-__benchmarks__
-build/
-remote-repo/
-coverage/
-.module-cache
-fixtures/dom/public/react-dom.js
-fixtures/dom/public/react.js
-test/the-files-to-test.generated.js
-*.log*
-chrome-user-data
-*.sublime-project
-*.sublime-workspace
-.idea
-*.iml
 
-*.swp
-*.swo
 
